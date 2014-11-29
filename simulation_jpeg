@@ -1,0 +1,3 @@
+% Chargement et visualisation de l'image
+
+img = imread('cameraman.tif');
