@@ -106,3 +106,6 @@ fprintf('Entropie de I2: %d \n', my_entropy(img_I2));
 fprintf('Entropie de I2-I1: %d \n', my_entropy(img_I2-img_I1));
 % I2 - I1C
 fprintf('Entropie de I2-I1C: %d \n', my_entropy(img_I2-img_I1C));
+
+
+
