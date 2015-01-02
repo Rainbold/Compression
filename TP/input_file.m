@@ -1,5 +1,4 @@
 function [ data ] = input_file( filepath )
-    
     a = fopen(filepath, 'r');
     data = [];
     while(~feof(a))

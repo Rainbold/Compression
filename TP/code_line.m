@@ -1,5 +1,5 @@
 function [ line_out ] = code_line ( line_in, white, black )
-    s = 0;
+    s = 0; % variable pour changer du blanc au noir et vis versa
     line_out = '';
     for i=1:length(line_in)
         v = line_in(i);
@@ -29,12 +29,13 @@ function [ line_out ] = code_line ( line_in, white, black )
             end
         end
     end
+    % Ajout de EOL
+    line_out = strcat(line_out, '000000000001');
+    
     % Padding
-    l = length(line_out) + 13;
+    l = length(line_out);
     nb_padding = fix(l/8 + 1)*8 - l;
     padding = strrep(int2str(zeros(1, nb_padding)), ' ', '');
     line_out = strcat(line_out,  padding);
-    % Ajout de EOL
-    line_out = strcat(line_out, '000000000001');
+    
 end
-
