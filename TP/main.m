@@ -26,7 +26,7 @@ line_code
 
 fd = fopen('line.txt', 'w+');
 fwrite(fd, line_code);
-
+fclose(fd);
 %% Partie 2
 %% Decompression
 close all;
@@ -36,6 +36,7 @@ clear all;
 
 fd = fopen('line.txt', 'r');
 line = fgetl(fd);
+fclose(fd);
 
 %% Chargement des arbres
 load('tree_codes.mat');
@@ -95,6 +96,7 @@ img_reconstruite = reconstruction(vectors);
 figure(2);
 imshow(img_reconstruite);
 title('image reconstruite');
+fclose(fd);
 
 %% recherche d'erreurs
 
