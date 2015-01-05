@@ -75,8 +75,8 @@ Gabriel VERMEULEN - \texttt{gabriel@vermeulen.email} \\\\{ENSEIRB-MATMECA, Borde
     end
   \end{lstlisting}
   
-  On peut maintenant encoder notre ligne. Pour se faire nous avons créé une fonction $code\_ligne()$ (voir annexe).\\
-  Afin de coder les données en uint8, il a fallu effectuer un padding à $0$, c'est-à-dire ajouter des bits $0$ à la fin de la ligne pour que la longueur totale de la ligne soit multiple de 8.
+  On peut maintenant encoder notre ligne. Pour se faire nous avons créé une fonction $code\_ligne()$ (voir Annexes).\\
+  Afin de coder les données en uint8, il faut effectuer un padding à $0$, c'est-à-dire ajouter des bits $0$ à la fin de la ligne pour que la longueur totale de la ligne soit multiple de 8.
   
   Enfin, pour sauvegarder le résultats du codage de la ligne, nous écrivons les données dans un fichier grâce aux fonctions $fopen()$ et $fwrite()$.
   
@@ -84,7 +84,7 @@ Gabriel VERMEULEN - \texttt{gabriel@vermeulen.email} \\\\{ENSEIRB-MATMECA, Borde
   
   Pour décoder une page, il faut commencer par récupérer une ligne dans un fichier, ce qui se fait avec les fonctions $fopen()$ et $fgetl()$.\\
   Les arbres permettant le décodage étant fourni, il a fallu créer une fonction qui parcourt ces arbres en fonction des données récupérées par la lecture du fichier. Cette fonction est nommée $decode\_doc()$ (voir Annexes).\\
-  Cette fonction retourne un ensemble de vecteurs contenant chacun les longueurs de séquences de pixels noirs et blancs correspondant à chaque ligne.\\
+  La fonction retourne un ensemble de vecteurs contenant chacun les longueurs de séquences de pixels noirs et blancs correspondant à chaque ligne.\\
   Afin de reconstruire l'image, une fonction nommée $reconstruction()$ a été implémentée. Elle retourne l'image binaire à partir de l'ensemble de vecteurs décrit précédemment.
 
 \newpage
@@ -102,8 +102,6 @@ Gabriel VERMEULEN - \texttt{gabriel@vermeulen.email} \\\\{ENSEIRB-MATMECA, Borde
   	  \label{img1}
   	\end{figure}
 
-  \begin{itemize}
-  \end{itemize}
   Après encodage, voici le résultat de compression obtenu :\\
   \begin{itemize}
   	\item Taille de l'image brute : 39 190 octets.
@@ -147,7 +145,7 @@ Gabriel VERMEULEN - \texttt{gabriel@vermeulen.email} \\\\{ENSEIRB-MATMECA, Borde
 \newpage
 \section{Conclusion}
 
-  Ce TP nous aura permis de mettre en pratique nos connaissances théoriques de la compression et décompression de données. Il intéressant de voir qu'il est possible de compresser avec un ratio supérieur à 4 une image binaire sans aucune perte.
+  Ce TP nous aura permis de mettre en pratique nos connaissances théoriques de la compression et décompression de données. Il est intéressant de voir qu'il est possible de compresser avec un ratio supérieur à 4 une image binaire sans aucune perte.
 
 \section{Annexes}
 

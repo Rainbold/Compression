@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.21)  2 JAN 2015 19:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.21)  4 JAN 2015 21:54
 entering extended mode
 **rapport.tex
 (C:\Users\Gatux\Documents\GitHub\Compression\TP\rapport\rapport.tex
@@ -505,59 +505,57 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- <img/img_ori.png, id=14, 470.37802pt x 418.66759pt>
+ [3]
+<img/img_ori.png, id=20, 470.37802pt x 418.66759pt>
 File: img/img_ori.png Graphic file (type png)
+ <use img/img_ori.png>
+Package pdftex.def Info: img/img_ori.png used on input line 100.
+(pdftex.def)             Requested size: 282.22897pt x 251.20248pt.
 
-<use img/img_ori.png>
-Package pdftex.def Info: img/img_ori.png used on input line 98.
-(pdftex.def)             Requested size: 282.22897pt x 251.20248pt.
- [3] <img/img_dec.png, id=20, 470.37802pt x 418.66759pt>
-File: img/img_dec.png Graphic file (type png)
- <use img/img_dec.png>
-Package pdftex.def Info: img/img_dec.png used on input line 114.
-(pdftex.def)             Requested size: 282.22897pt x 251.20248pt.
- [4 <C:/Users/Gatux/Documents/GitHub/Compression/TP/rapport/img/img_ori.png (PNG copy)> <C:/Users/Gatux/Documents/GitHub
-/Compression/TP/rapport/img/img_dec.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-
-Overfull \hbox (15.51189pt too wide) in paragraph at lines 139--140
-\OT1/cmr/m/n/10.95 Ce TP nous aura per-mit de met-tre en pra-tique nos con-nais-sances theoriques de la com-pres-sion e
+[4 <C:/Users/Gatux/Documents/GitHub/Compression/TP/rapport/img/img_ori.png (PNG copy)>]
+<img/img_dec.png, id=25, 470.37802pt x 418.66759pt>
+File: img/img_dec.png Graphic file (type png)
+ <use img/img_dec.png>
+Package pdftex.def Info: img/img_dec.png used on input line 119.
+(pdftex.def)             Requested size: 282.22897pt x 251.20248pt.
+ [5 <C:/Users/Gatux/Documents/GitHub/Compression/TP/rapport/img/img_dec.png (PNG copy)>]
+Overfull \hbox (15.57271pt too wide) in paragraph at lines 148--149
+\OT1/cmr/m/n/10.95 Ce TP nous aura per-mis de met-tre en pra-tique nos con-nais-sances theoriques de la com-pres-sion e
 t decompression
  []
 
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 149.
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 158.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 149.
- [5] [6] [7]
-(C:\Users\Gatux\Documents\GitHub\Compression\TP\rapport\rapport.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
+ [6] [7] [8]
+(C:\Users\Gatux\Documents\GitHub\Compression\TP\rapport\rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 7812 strings out of 493921
- 107886 string characters out of 3144875
- 197776 words of memory out of 3000000
- 10990 multiletter control sequences out of 15000+200000
- 14734 words of font info for 57 fonts, out of 3000000 for 9000
+ 7817 strings out of 493921
+ 107949 string characters out of 3144875
+ 196789 words of memory out of 3000000
+ 10993 multiletter control sequences out of 15000+200000
+ 15383 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,42p,742b,1619s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/urw/courier/ucrr8a.pfb>
-Output written on rapport.pdf (7 pages, 159795 bytes).
+ 36i,7n,42p,746b,1619s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Gatux\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\tcrm1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/courier/ucrr8a.pfb>
+Output written on rapport.pdf (8 pages, 177019 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
